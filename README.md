@@ -1,8 +1,8 @@
-<h1 align="center">
-  <img src="fadl.png" alt="Marton Lederer" />
-</h1>
+<p align="center">
+  <img src="fadl.png" alt="Mohamed Fadl" />
+</p>
 
-<h2 align="center" style="font-weight: 300; color: #988e9f;"> &lt;About /&gt;</h2>
+<h2 style="font-weight: 300; color: #988e9f; text-align:center; margin-bottom: 25px;">&lt;About /&gt;</h2>
 
 ```javascript
 
