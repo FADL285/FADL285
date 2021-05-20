@@ -19,8 +19,8 @@ class Mohamed Fadl {
   workExperience() {
     return [
       { "2020-now"  : "Freelance Front-End Developer" },
-      { "2020-now"  : "Front-End Developer at Spider-Te8" },
-      { "2019-2020" : "Front-end Developer at Alpha Egypt Group" }
+      { "2020-now"  : "Front-End Developer @ Spider-Te8" },
+      { "2019-2020" : "Front-end Developer @ Alpha Egypt Group" }
     ]      
   }
 
