@@ -27,8 +27,7 @@ class Mohamed Fadl {
   education() {
     return [
       { "2018-2022" : "Computer Science, Bachelor's degree @ Mansoura University" },
-      { "2020-2020" : "Web Development Professional (Nanodegree Program) @ Udacity - 4 Months
-" }
+      { "2020-2020" : "Web Development Professional (Nanodegree Program) @ Udacity - 4 Months" }
     ]
   }
   
