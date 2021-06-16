@@ -11,7 +11,7 @@ class Mohamed Fadl {
   // My vast variety of skills is continuously expanding.
 
   constructor() {
-    this.name = "Mohamed AboulFadl"
+    this.name = "Mohamed Aboul-Fadl"
     this.dayOfBirthTimestamp = 959472000
     this.email = "Mohamed.Fadl2852@gmail.com"
   }
