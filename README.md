@@ -36,7 +36,7 @@ class Mohamed Fadl {
       'HTML', 'CSS', 'JavaScript',
       'jQuery', 'Bootstrap/TailwindCss',
       'Vue.js', 'SASS', 'npm/yarn', 'Webpack/Gulp',
-      'PHP', 'Python', 'MySQL', 'Wordpress',
+      'PHP', 'MySQL', 'Laravel', 'Wordpress', 'Python'
       'Photoshop'
     ]
   }
