@@ -12,8 +12,9 @@ class Mohamed Fadl {
 
   constructor() {
     this.name = "Mohamed Aboul-Fadl"
-    this.dayOfBirthTimestamp = 959472000
+    this.dayOfBirthTimestamp = 959482800000
     this.email = "Mohamed.Fadl2852@gmail.com"
+    this.userName = "FADL285"
   }
 
   workExperience() {
