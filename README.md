@@ -20,7 +20,7 @@ class Mohamed Fadl {
   workExperience() {
     return [
       { "2020-now"  : "Freelance Front-End Developer" },
-      { "2020-now"  : "Front-End Developer @ Spider-Te8" },
+      { "2020-2022"  : "Front-End Developer @ Spider-Te8" },
       { "2019-2020" : "Front-end Developer @ Alpha Egypt Group" }
     ]      
   }
@@ -37,8 +37,8 @@ class Mohamed Fadl {
       'HTML', 'CSS', 'JavaScript',
       'jQuery', 'Bootstrap/TailwindCss',
       'Vue.js', 'SASS', 'npm/yarn', 'Webpack/Gulp',
-      'PHP', 'MySQL', 'Laravel', 'Wordpress', 'Python'
-      'Photoshop'
+      'Node.js', 'MongoDB', 'PHP', 'MySQL', 'Python',
+      'Wordpress', 'Photoshop'
     ]
   }
 }
