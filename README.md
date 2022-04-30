@@ -6,7 +6,7 @@
 
 ```javascript
 
-class Mohamed Fadl {
+class Mohamed_Fadl {
   // I'm ambitious and love new challenges :)
   // My vast variety of skills is continuously expanding.
 
