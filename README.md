@@ -7,6 +7,10 @@
 ```javascript
 
 class Mohamed_Fadl {
+  /* -👋👋-
+    Hello, I'm Mohamed Aboul-Fadl, a front-end web developer well versed in HTML, CSS, JavaScript, and Vue.js, and I'm a beginner in back-end development.
+    Keep a vision of becoming a full-fledged developer (Technology Stack: MEVN).
+  */
   // I'm ambitious and love new challenges :)
   // My vast variety of skills is continuously expanding.
 
@@ -37,7 +41,7 @@ class Mohamed_Fadl {
       'HTML', 'CSS', 'JavaScript',
       'jQuery', 'Bootstrap/TailwindCss',
       'Vue.js', 'SASS', 'npm/yarn', 'Webpack/Gulp',
-      'Node.js', 'MongoDB', 'PHP', 'MySQL', 'Python',
+      'Node.js', 'Express', 'MongoDB', 'PHP', 'MySQL', 'Python',
       'Wordpress', 'Photoshop'
     ]
   }
