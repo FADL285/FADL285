@@ -32,17 +32,20 @@ class Mohamed_Fadl {
   education() {
     return [
       { "2018-2022" : "Computer Science, Bachelor's degree @ Mansoura University" },
-      { "2020-2020" : "Web Development Professional (Nanodegree Program) @ Udacity - 4 Months" }
+      { "2020-2020" : "Front End Web Developer (Nanodegree Program) @ Udacity - 4 Months" },
+      { "2022-2022" : "Full Stack JavaScript Developer (Nanodegree Program) @ Udacity - 4 Months" }
     ]
   }
   
   skills() {
     return [ 
       'HTML', 'CSS', 'JavaScript',
-      'jQuery', 'Bootstrap/TailwindCss',
-      'Vue.js', 'SASS', 'npm/yarn', 'Webpack/Gulp',
-      'Node.js', 'Express', 'MongoDB', 'PHP', 'MySQL', 'Python',
-      'Wordpress', 'Photoshop'
+      'SASS', 'Bootstrap/TailwindCSS', 'TypeScript',
+      'Vue.js', 'Jasmine/Jest',
+      'npm/yarn', 'Webpack/Vite', 'Git/GitHub',
+      'Node.js', 'Express', 'MongoDB', 'PostgreSQL',
+      'Python', 'Wordpress', 
+      'AWS', 'CircleCI'
     ]
   }
 }
