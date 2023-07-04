@@ -8,7 +8,7 @@
 
 class Mohamed_Fadl {
   /* -👋👋-
-    Hello, I'm Mohamed Aboul-Fadl, a front-end web developer well versed in HTML, CSS, JavaScript, and Vue.js, and I'm a beginner in back-end development.
+    Hello, I'm Mohamed Aboul-Fadl, a front-end web developer well-versed in HTML, CSS, JavaScript, and Vue.js, and I'm a beginner in back-end development.
     Keep a vision of becoming a full-fledged developer (Technology Stack: MEVN).
   */
   // I'm ambitious and love new challenges :)
@@ -41,11 +41,11 @@ class Mohamed_Fadl {
     return [ 
       'HTML', 'CSS', 'JavaScript',
       'SASS', 'Bootstrap/TailwindCSS',
-      'Vue.js', 'Nuxt.js', 'TypeScript',
-      'Jest/Jasmine', 'Vitest', // <- Unit Testing
+      'Vue.js', 'Nuxt.js', 'React', 'TypeScript',
+      'Jest/Jasmine', 'Vitest', 'Cypress', // ->> Testing Tools
       'npm/yarn', 'Webpack/Vite', 'Git/GitHub',
       'Node.js', 'Express', 'MongoDB', 'PostgreSQL',
-      'Python', 'Wordpress'
+      'Python', 'WordPress', '...|'
     ]
   }
 }
