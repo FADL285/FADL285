@@ -24,7 +24,7 @@ class Mohamed_Fadl {
   workExperience() {
     return [
       { "2020-now"  : "Freelance Front-End Developer" },
-      { "2020-now"  : "Front-End Developer @ Spider-Te8" },
+      { "2020-2023"  : "Front-End Developer @ Spider-Te8" },
       { "2019-2020" : "Front-end Developer @ Alpha Egypt Group" }
     ]      
   }
