@@ -23,17 +23,18 @@ class Mohamed_Fadl {
 
   workExperience() {
     return [
-      { "2020-now"  : "Freelance Front-End Developer" },
-      { "2020-2023"  : "Front-End Developer @ Spider-Te8" },
-      { "2019-2020" : "Front-end Developer @ Alpha Egypt Group" }
+      { "2024-present": "Software Engineer @ CyberDefenders" },
+      { "2020-present": "Freelance Front-End Developer" },
+      { "2020-2023"   : "Front-End Developer @ Spider-Te8" },
+      { "2019-2020"   : "Front-end Developer @ Alpha Egypt Group" }
     ]      
   }
 
   education() {
     return [
-      { "2018-2022" : "Computer Science, Bachelor's degree @ Mansoura University" },
-      { "2020-2020" : "Front End Web Developer (Nanodegree Program) @ Udacity - 4 Months" },
-      { "2022-2022" : "Full Stack JavaScript Developer (Nanodegree Program) @ Udacity - 4 Months" }
+      { "2018-2022": "Computer Science, Bachelor's degree @ Mansoura University" },
+      { "2020-2020": "Front End Web Developer (Nanodegree Program) @ Udacity - 4 Months" },
+      { "2022-2022": "Full Stack JavaScript Developer (Nanodegree Program) @ Udacity - 4 Months" }
     ]
   }
   
