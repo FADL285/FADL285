@@ -5,29 +5,33 @@
 <h2 align="center" style="font-weight: 300; color: #988e9f; margin-bottom: 25px;">&lt;About /&gt;</h2>
 
 ```javascript
-
 class Mohamed_Fadl {
-  /* -👋👋-
-    Hello, I'm Mohamed Aboul-Fadl, a front-end web developer well-versed in HTML, CSS, JavaScript, and Vue.js, and I'm a beginner in back-end development.
-    Keep a vision of becoming a full-fledged developer (Technology Stack: MEVN).
-  */
-  // I'm ambitious and love new challenges :)
-  // My vast variety of skills is continuously expanding.
+  const ABOUT = `
+    Hello 👋👋, I'm Mohamed AboulFadl, an accomplished Front-End Engineer with a passion for crafting user-centric web solutions.
+    With over three years of experience in the industry, I have developed a keen expertise in HTML, CSS, JavaScript, and Vue.js.
+    My journey has led me to deliver high-quality web applications, including a notable project that significantly improved user engagement.
+
+    I'm ambitious and love new challenges :)
+    My vast variety of skills is continuously expanding.
+    `
 
   constructor() {
-    this.name = "Mohamed Aboul-Fadl"
-    this.dayOfBirthTimestamp = 959482800000
+    this.name = "Mohamed AboulFadl"
+    this.about = ABOUT
     this.email = "Mohamed.Fadl2852@gmail.com"
     this.userName = "FADL285"
+    this.dayOfBirthTimestamp = 959482800000
+    this.location = "Gharbia, Egypt"
   }
 
   workExperience() {
     return [
-      '...|',
+      '...|'
+      { "2024-present": "Software Engineer @ CyberDefenders" },
       { "2020-present": "Freelance Front-End Developer" },
       { "2020-2023"   : "Front-End Developer @ Spider-Te8" },
       { "2019-2020"   : "Front-end Developer @ Alpha Egypt Group" }
-    ]      
+    ]
   }
 
   education() {
@@ -37,9 +41,9 @@ class Mohamed_Fadl {
       { "2022-2022": "Full Stack JavaScript Developer (Nanodegree Program) @ Udacity - 4 Months" }
     ]
   }
-  
+
   skills() {
-    return [ 
+    return [
       'HTML', 'CSS', 'JavaScript',
       'SASS', 'Bootstrap/TailwindCSS',
       'Vue.js', 'Nuxt.js', 'React', 'TypeScript',
