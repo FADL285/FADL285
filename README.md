@@ -6,7 +6,7 @@
 
 ```javascript
 class Mohamed_Fadl {
-  const ABOUT = `
+  ABOUT = `
     Hello 👋👋, I'm Mohamed AboulFadl, an accomplished Front-End Engineer with a passion for crafting user-centric web solutions.
     With over three years of experience in the industry, I have developed a keen expertise in HTML, CSS, JavaScript, and Vue.js.
     My journey has led me to deliver high-quality web applications, including a notable project that significantly improved user engagement.
@@ -26,7 +26,7 @@ class Mohamed_Fadl {
 
   workExperience() {
     return [
-      '...|'
+      '...|',
       { "2024-present": "Software Engineer @ CyberDefenders" },
       { "2020-present": "Freelance Front-End Engineer" },
       { "2020-2023"   : "Front-End Engineer @ Spider-Te8" },
