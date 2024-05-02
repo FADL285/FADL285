@@ -18,7 +18,7 @@ class Mohamed_Fadl {
   constructor() {
     this.name = "Mohamed AboulFadl"
     this.about = ABOUT
-    this.email = "Mohamed.Fadl.Farag@gmail.com"
+    this.email = "mohamed@fadl.info"
     this.userName = "FADL285"
     this.dayOfBirthTimestamp = 959482800000
     this.location = "Gharbia, Egypt"
