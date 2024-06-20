@@ -4,7 +4,7 @@
   "description": "Business Card for Mohamed Fadl <@FADL285>",
   "main": "index.js",
   "bin": {
-    "fadl": "./scripts/business.mjs"
+    "fadl": "scripts/business.mjs"
   },
   "scripts": {
     "dev": "node ./scripts/business.mjs"
