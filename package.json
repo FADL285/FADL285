@@ -1,7 +1,7 @@
 {
   "name": "fadl",
   "version": "1.0.0",
-  "description": "A facny business card that outputs to the terminal using npx",
+  "description": "Business Card for Mohamed Fadl <@FADL285>",
   "main": "index.js",
   "bin": {
     "fadl": "./scripts/business.mjs"
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/FADL285/FADL285/issues"
   },
-  "homepage": "https://github.com/FADL285/FADL285#readme",
+  "homepage": "https://fadl.info/",
   "dependencies": {
     "boxen": "^7.1.1",
     "chalk": "^5.3.0"
