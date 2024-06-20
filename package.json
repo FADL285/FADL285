@@ -1,0 +1,23 @@
+{
+  "name": "fadl",
+  "version": "1.0.0",
+  "description": "A facny business card that outputs to the terminal using npx",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FADL285/FADL285.git"
+  },
+  "keywords": [
+    "terminal business card",
+    "readme",
+    "business",
+    "card"
+  ],
+  "author": "Mohamed Fadl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FADL285/FADL285/issues"
+  },
+  "homepage": "https://github.com/FADL285/FADL285#readme"
+}
