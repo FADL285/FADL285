@@ -7,13 +7,15 @@
 ```javascript
 class Mohamed_Fadl {
   ABOUT = `
-    Hello 👋👋, I'm Mohamed AboulFadl, an accomplished Front-End Engineer with a passion for crafting user-centric web solutions.
-    With over three years of experience in the industry, I have developed a keen expertise in HTML, CSS, JavaScript, and Vue.js.
-    My journey has led me to deliver high-quality web applications, including a notable project that significantly improved user engagement.
+    Hey 👋, I'm Mohamed AboulFadl — a Senior Front-End Engineer passionate about building 
+    scalable, high-performance web applications and crafting smooth, user-focused experiences.
 
-    I'm ambitious and love new challenges :)
-    My vast variety of skills is continuously expanding.
-    `
+    I specialize in Vue.js, Nuxt.js, and TypeScript — and I love optimizing performance 
+    (recently boosted a production app’s PageSpeed from 30 ➜ 100 🎯).
+
+    I enjoy turning complex UI ideas into seamless, accessible, and elegant interfaces.
+    Always learning, mentoring, and striving to make the web faster ⚡.
+  `
 
   constructor() {
     this.name = "Mohamed AboulFadl"
@@ -21,37 +23,68 @@ class Mohamed_Fadl {
     this.email = "mohamed@fadl.info"
     this.userName = "FADL285"
     this.dayOfBirthTimestamp = 959482800000
-    this.location = "Gharbia, Egypt"
+    this.location = "Cairo, Egypt"
+    this.role = "Senior Front-End Engineer"
+    this.website = "https://fadl.info"
   }
 
   workExperience() {
     return [
-      '...|',
-      { "2024-present": "Software Engineer @ CyberDefenders" },
-      { "2020-present": "Freelance Front-End Engineer" },
-      { "2020-2023"   : "Front-End Engineer @ Spider-Te8" },
-      { "2019-2020"   : "Front-end Engineer @ Alpha Egypt Group" }
+      { "2023-present": "Software Engineer @ CyberDefenders" },
+      { "2019-2023": "Front-End Engineer @ Spider-Te8" },
+      { "2019-present": "Freelance Front-End Engineer" },
+      { "2019-2020": "Front-End Engineer @ Alpha Egypt Group" }
     ]
   }
 
   education() {
     return [
-      { "2018-2022": "Computer Science, Bachelor's degree @ Mansoura University" },
-      { "2020-2020": "Front End Web Developer (Nanodegree Program) @ Udacity - 4 Months" },
-      { "2022-2022": "Full Stack JavaScript Developer (Nanodegree Program) @ Udacity - 4 Months" }
+      { "2018-2022": "B.Sc. in Computer Science @ Mansoura University" },
+      { "Udacity": "Front-End Web Developer Nanodegree" },
+      { "Udacity": "Full Stack JavaScript Developer Nanodegree" },
+      { "Google": "IT Automation with Python Professional Certificate" }
+    ]
+  }
+
+  certifications() {
+    return [
+      "Certified Senior Vue.js Developer",
+      "Certified Mid-Level Vue.js Developer",
+      "The Vue.js 3 Masterclass",
+      "Mastering Nuxt 3",
+      "Mastering Pinia"
     ]
   }
 
   skills() {
     return [
-      'HTML', 'CSS', 'JavaScript',
-      'SASS', 'Bootstrap/TailwindCSS',
-      'Vue.js', 'Nuxt.js', 'React', 'TypeScript',
-      'Jest/Jasmine', 'Vitest', 'Cypress', // ->> Testing Tools
-      'npm/yarn', 'Webpack/Vite', 'Git/GitHub',
-      'Node.js', 'Express', 'MongoDB', 'PostgreSQL',
-      'Python', 'WordPress', '...|'
+      // Core
+      'HTML5', 'CSS3/SASS', 'JavaScript (ES6+)', 'TypeScript',
+
+      // Frameworks
+      'Vue.js', 'Nuxt.js', 'React.js', 'Next.js',
+
+      // UI & Styling
+      'Tailwind CSS', 'Bootstrap', 'Shadcn Vue', 'PrimeVue', 'Nuxt UI',
+
+      // State & Data
+      'Pinia', 'Vuex', 'Zustand', 'TanStack Query',
+
+      // Tools & Testing
+      'Vite', 'Webpack', 'Git/GitHub', 'Jest', 'Vitest', 'Cypress',
+
+      // Backend & APIs
+      'Node.js', 'Express', 'RESTful APIs',
+
+      // Other
+      'Performance Optimization', 'Accessibility (WCAG)', 'Cross-Browser Compatibility'
+    ]
+  }
+
+  volunteering() {
+    return [
+      { "Chairman": "IEEE Mansoura Computer Society Chapter (2022)" },
+      { "Frontend Mentor": "CIS Team – Mansoura University (2021–2022)" }
     ]
   }
 }
-```
