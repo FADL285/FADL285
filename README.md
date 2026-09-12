@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://fadl.info">
-    <img src="./assets/github-profile-banner.png" alt="Mohamed Fadl — Senior Software Engineer" width="100%" />
+    <img src="./assets/github-profile-banner.webp" alt="Mohamed Fadl — Senior Software Engineer" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <img src="./assets/mf-horizontal-full-logo.png" alt="MF monogram" width="260" />
+  <img src="./assets/mf-horizontal-full-logo.webp" alt="MF monogram" width="260" />
 </p>
 
 <h2 align="center" style="font-weight: 300; color: #988e9f; margin-bottom: 25px;">&lt;About /&gt;</h2>
