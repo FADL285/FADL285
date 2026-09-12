@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/mohamed-fadl-logo-horizontal-full.png" alt="MF monogram" width="112" />
+  <img src="./assets/mf-horizontal-full-logo.png" alt="MF monogram" width="260" />
 </p>
 
 <h2 align="center" style="font-weight: 300; color: #988e9f; margin-bottom: 25px;">&lt;About /&gt;</h2>
