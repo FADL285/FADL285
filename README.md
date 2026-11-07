@@ -1,61 +1,142 @@
 <p align="center">
-  <a href="https://fadl.info/">
+  <a href="https://fadl.info">
     <img src="./assets/github-profile-banner.webp" alt="Mohamed Fadl — Senior Software Engineer" width="100%" />
   </a>
 </p>
 
-# Hi, I'm Mohamed Fadl
+<p align="center">
+  <img src="./assets/mf-horizontal-full-logo.webp" alt="MF monogram" width="260" />
+</p>
 
-**Senior Software Engineer at Robusta Studio · Certified Senior Vue.js Developer · Cairo, Egypt**
+<h2 align="center" style="font-weight: 300; color: #988e9f; margin-bottom: 25px;">&lt;About /&gt;</h2>
 
-I build reliable, high-performance web applications, with a primary focus on frontend engineering. My work spans e-commerce and learning platforms, frontend architecture, system migrations, and performance optimization.
+```javascript
+class Mohamed_Fadl {
+  ABOUT = `
+    Hey 👋, I'm Mohamed Fadl — a Senior Software Engineer at Robusta Studio
+    and a Certified Senior Vue.js Developer, focused on frontend engineering.
 
-Vue.js, Nuxt, and TypeScript are my core tools. I also work with React, Next.js, REST APIs, and backend-for-frontend layers. I'm deepening my backend and database skills to take broader ownership of features across the stack, and studying AI integration and retrieval-augmented generation (RAG).
+    I build reliable, high-performance web applications with Vue.js, Nuxt,
+    and TypeScript, across e-commerce and learning platforms.
 
-[Website](https://fadl.info/) · [LinkedIn](https://www.linkedin.com/in/fadl285/) · [Email](mailto:mohamed@fadl.info)
+    My work includes frontend architecture, system migrations, SSR performance,
+    caching, and mentoring. I also work with React, Next.js, and backend APIs.
+  `
 
-## Engineering work
+  constructor() {
+    this.name = "Mohamed Fadl"
+    this.about = this.ABOUT
+    this.email = "mohamed@fadl.info"
+    this.userName = "FADL285"
+    this.location = "Cairo, Egypt"
+    this.role = "Senior Software Engineer"
+    this.website = "https://fadl.info"
+  }
 
-- Migrated a client e-commerce application from Vue 2 and Nuxt 2 to Vue 3 and Nuxt 4.
-- Resolved an SSR memory leak and implemented caching, reducing server memory usage by 85% and increasing throughput by 40× in post-deployment server measurements.
-- Improved Lighthouse performance scores from approximately 30 to 99–100 on most tested pages, alongside crawling, indexing, and usability improvements.
-- Mentor developers and contribute through code reviews, technical guidance, and practical engineering tools.
+  workExperience() {
+    return [
+      { "Dec 2025–present": "Senior Software Engineer @ Robusta Studio" },
+      { "Dec 2023–Dec 2025": "Software Engineer @ CyberDefenders" },
+      { "May 2019–Oct 2023": "Front-End Engineer @ Spider-Te8" },
+      { "Sep 2019–Feb 2020": "Front-End Engineer @ Alpha Egypt Group (part-time)" }
+    ]
+  }
 
-## Selected projects
+  engineeringWork() {
+    return [
+      "Migrated client e-commerce: Vue 2 / Nuxt 2 → Vue 3 / Nuxt 4",
+      "Resolved an SSR memory leak and implemented caching",
+      "Post-deployment server measurements: 85% less memory, 40× throughput",
+      "Lighthouse performance: ~30 → 99–100 on most tested pages",
+      "Improved crawling, indexing, usability, and user journeys",
+      "Mentor developers through technical guidance and code reviews"
+    ]
+  }
 
-| Project | What it demonstrates |
-| --- | --- |
-| [ColorShift](https://github.com/FADL285/ColorShift) | A browser-based CSS color conversion tool built with Nuxt 4, Vue 3, and TypeScript. Includes batch file processing in a cancellable Web Worker, conversion previews, and unit and browser regression tests. |
-| Typeform Judging Scoreboard — [Frontend](https://github.com/FADL285/Typeform-Judging-Scoreboard-Frontend) · [Backend](https://github.com/FADL285/Typeform-Judging-Scoreboard-Backend) | A Vue and Node.js judging dashboard used in IEEE VICTORIS and university NASA Space Apps competitions. Integrates Typeform responses to aggregate scores and display rankings, with server-side authentication and regression tests added in later improvements. |
+  projects() {
+    return [
+      {
+        name: "ColorShift",
+        stack: ["Nuxt 4", "Vue 3", "TypeScript"],
+        features: [
+          "Instant CSS color conversion and batch file processing",
+          "Cancellable Web Worker, previews, and browser-side processing",
+          "Unit and browser regression tests"
+        ],
+        source: "https://github.com/FADL285/ColorShift"
+      },
+      {
+        name: "Typeform Judging Scoreboard",
+        stack: ["Vue 3", "Pinia", "Tailwind CSS", "Node.js", "Express"],
+        usedAt: ["IEEE VICTORIS", "University NASA Space Apps competitions"],
+        features: [
+          "Typeform integration, score aggregation, and team rankings",
+          "Later improvements: authenticated APIs and regression tests"
+        ],
+        frontend: "https://github.com/FADL285/Typeform-Judging-Scoreboard-Frontend",
+        backend: "https://github.com/FADL285/Typeform-Judging-Scoreboard-Backend"
+      }
+    ]
+  }
 
-## Core technologies
+  education() {
+    return [
+      { "2018–2022": "B.Sc. in Computer Engineering @ Mansoura University" },
+      { "2022": "Full Stack JavaScript Developer Nanodegree @ Udacity / Egypt FWD" },
+      { "2020": "Web Development Professional Nanodegree @ Udacity / Egypt FWD" }
+    ]
+  }
 
-- **Frontend:** Vue.js, Nuxt, TypeScript, JavaScript, React, Next.js, HTML, CSS, Sass, Tailwind CSS
-- **State and data:** Pinia, Vuex, TanStack Query, REST APIs, GraphQL
-- **Backend and databases:** Node.js, Express, PostgreSQL
-- **Quality and tooling:** Vitest, Playwright, Git, Vite, ESLint
-- **Engineering focus:** Web performance, SSR, caching, migrations, maintainable interfaces, and code reviews
+  certifications() {
+    return [
+      "Certified Senior Vue.js Developer — Certificates.dev, Dec 2024",
+      "Certified Mid-Level Vue.js Developer — Certificates.dev, Oct 2024",
+      "Mastering Nuxt: Full Stack Unleashed (Nuxt 4) — Vue School, Apr 2025",
+      "Mastering Nuxt 3 — Vue School, Jul 2024",
+      "The Vue.js 3 Masterclass",
+      "Mastering Pinia"
+    ]
+  }
 
-## Experience
+  skills() {
+    return [
+      // Core
+      "HTML5", "CSS3", "Sass", "JavaScript (ES6+)", "TypeScript",
 
-| Role | Organization | Period |
-| --- | --- | --- |
-| Senior Software Engineer | Robusta Studio | Dec 2025–Present |
-| Software Engineer | CyberDefenders | Dec 2023–Dec 2025 |
-| Front-End Engineer | Spider-Te8 | May 2019–Oct 2023 |
-| Front-End Engineer · Part-time | Alpha Egypt Group | Sep 2019–Feb 2020 |
+      // Frameworks
+      "Vue.js", "Nuxt", "React", "Next.js",
 
-## Education and credentials
+      // UI & Styling
+      "Tailwind CSS", "Bootstrap", "shadcn", "Nuxt UI", "PrimeVue",
 
-- **B.Sc. in Computer Engineering** — Mansoura University, 2018–2022
-- **Full Stack JavaScript Developer Nanodegree** — Udacity / Egypt FWD, 2022
-- **Web Development Professional Nanodegree** — Udacity / Egypt FWD, 2020
-- **[Certified Senior Vue.js Developer](https://certificates.dev/vuejs/certificates/9dcea6a5-44c8-41f2-9425-ea0f52a83a75)** — Certificates.dev, Dec 2024
-- **Mastering Nuxt: Full Stack Unleashed (Nuxt 4)** — Vue School, Apr 2025
-- **Mastering Nuxt 3** — Vue School, Jul 2024
+      // State & Data
+      "Pinia", "Vuex", "Zustand", "TanStack Query", "GraphQL",
 
-## Community
+      // Tools & Testing
+      "Vite", "Webpack", "Git/GitHub", "Jest", "Vitest", "Playwright", "Cypress",
 
-Previously served as Chairman of the IEEE Mansoura Computer Society Chapter and Front-End Mentor at CIS Team MU. At CIS, I also served as Project Manager, Frontend Lead, and Webmaster for the team's website.
+      // Backend & APIs
+      "Node.js", "Express", "REST APIs", "PostgreSQL",
 
-I enjoy sharing what I learn, helping developers work through practical problems, and making the web faster and easier to use.
+      // Engineering
+      "Web Performance", "SSR", "Caching", "Frontend Architecture",
+      "Accessibility", "Cross-Browser Compatibility"
+    ]
+  }
+
+  currentlyLearning() {
+    return [
+      "Deepening backend and database skills for broader full-stack ownership",
+      "AI integration and retrieval-augmented generation (RAG)"
+    ]
+  }
+
+  volunteering() {
+    return [
+      { "Chairman": "IEEE Mansoura Computer Society Chapter (2022)" },
+      { "Front-End Mentor": "CIS Team MU (2021–2022)" },
+      { "PM / Frontend Lead / Webmaster": "CIS Team MU website" }
+    ]
+  }
+}
+```
