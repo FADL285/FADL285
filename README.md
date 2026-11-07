@@ -9,14 +9,25 @@
 ```javascript
 class Mohamed_Fadl {
   ABOUT = `
-    Hey 👋, I'm Mohamed Fadl — a Senior Software Engineer at Robusta Studio
-    and a Certified Senior Vue.js Developer, focused on frontend engineering.
+    I’m a Senior Software Engineer at Robusta Studio and a Certified Senior Vue.js
+    Developer, focused on building reliable, high-performance web applications. My
+    experience spans e-commerce and learning platforms, working with Vue.js, Nuxt,
+    TypeScript, React, and backend APIs. I’ve worked on system migrations from Vue
+    2 and Nuxt 2 to Vue 3 and Nuxt 4, alongside frontend architecture, feature
+    development, and performance optimization. My work has included raising a
+    PageSpeed score from 30 to 100, resolving SSR memory leaks, and implementing
+    caching strategies. Beyond technical performance, I’ve improved usability and
+    user journeys, contributing to better organic search visibility, a smoother
+    user experience, and higher conversion rates.
 
-    I build reliable, high-performance web applications with Vue.js, Nuxt,
-    and TypeScript, across e-commerce and learning platforms.
-
-    My work includes frontend architecture, system migrations, SSR performance,
-    caching, and mentoring. I also work with React, Next.js, and backend APIs.
+    Alongside my frontend expertise, I have experience developing and integrating
+    REST APIs and building backend-for-frontend layers. I’m continuing to deepen
+    my backend and database expertise to take broader ownership of features across
+    the stack. I’m also studying AI integration and retrieval-augmented generation
+    (RAG), with a focus on adding useful, context-aware capabilities to software
+    systems. I enjoy solving practical engineering problems, building maintainable
+    software, collaborating across engineering, design, and product teams, and
+    mentoring other developers.
   `
 
   constructor() {
