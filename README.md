@@ -4,10 +4,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="./assets/mf-horizontal-full-logo.webp" alt="MF monogram" width="260" />
-</p>
-
 <h2 align="center" style="font-weight: 300; color: #988e9f; margin-bottom: 25px;">&lt;About /&gt;</h2>
 
 ```javascript
