@@ -4,42 +4,34 @@
   </a>
 </p>
 
-<h2 align="center" style="font-weight: 300; color: #988e9f; margin-bottom: 25px;">&lt;About /&gt;</h2>
-
 ```javascript
 class Mohamed_Fadl {
-  ABOUT = `
-    I’m a Senior Software Engineer at Robusta Studio and a Certified Senior Vue.js
-    Developer, focused on building reliable, high-performance web applications. My
-    experience spans e-commerce and learning platforms, working with Vue.js, Nuxt,
-    TypeScript, React, and backend APIs. I’ve worked on system migrations from Vue
-    2 and Nuxt 2 to Vue 3 and Nuxt 4, alongside frontend architecture, feature
-    development, and performance optimization. My work has included raising a
-    PageSpeed score from 30 to 100, resolving SSR memory leaks, and implementing
-    caching strategies. Beyond technical performance, I’ve improved usability and
-    user journeys, contributing to better organic search visibility, a smoother
-    user experience, and higher conversion rates.
+  role = "Senior Software Engineer"
+  company = "Robusta Studio"
+  location = "Cairo, Egypt"
+  certification = "Certified Senior Vue.js Developer"
+  stack = ["Vue", "Nuxt", "TypeScript", "React", "Next.js"]
+  focus = ["Frontend Architecture", "Web Performance"]
+  learning = ["Backend & Databases", "AI Integration & RAG"]
+}
+```
 
-    Alongside my frontend expertise, I have experience developing and integrating
-    REST APIs and building backend-for-frontend layers. I’m continuing to deepen
-    my backend and database expertise to take broader ownership of features across
-    the stack. I’m also studying AI integration and retrieval-augmented generation
-    (RAG), with a focus on adding useful, context-aware capabilities to software
-    systems. I enjoy solving practical engineering problems, building maintainable
-    software, collaborating across engineering, design, and product teams, and
-    mentoring other developers.
-  `
+[Website](https://fadl.info/) · [LinkedIn](https://www.linkedin.com/in/fadl285/) · [Email](mailto:mohamed@fadl.info)
 
-  constructor() {
-    this.name = "Mohamed Fadl"
-    this.about = this.ABOUT
-    this.email = "mohamed@fadl.info"
-    this.userName = "FADL285"
-    this.location = "Cairo, Egypt"
-    this.role = "Senior Software Engineer"
-    this.website = "https://fadl.info"
-  }
+<details>
+<summary><strong>About me</strong> — full professional summary</summary>
 
+I’m a Senior Software Engineer at Robusta Studio and a Certified Senior Vue.js Developer, focused on building reliable, high-performance web applications. My experience spans e-commerce and learning platforms, working with Vue.js, Nuxt, TypeScript, React, and backend APIs. I’ve worked on system migrations from Vue 2 and Nuxt 2 to Vue 3 and Nuxt 4, alongside frontend architecture, feature development, and performance optimization. My work has included raising a PageSpeed score from 30 to 100, resolving SSR memory leaks, and implementing caching strategies. Beyond technical performance, I’ve improved usability and user journeys, contributing to better organic search visibility, a smoother user experience, and higher conversion rates.
+
+Alongside my frontend expertise, I have experience developing and integrating REST APIs and building backend-for-frontend layers. I’m continuing to deepen my backend and database expertise to take broader ownership of features across the stack. I’m also studying AI integration and retrieval-augmented generation (RAG), with a focus on adding useful, context-aware capabilities to software systems. I enjoy solving practical engineering problems, building maintainable software, collaborating across engineering, design, and product teams, and mentoring other developers.
+
+</details>
+
+<details>
+<summary><strong>Experience & credentials</strong> — work, skills, education, and community</summary>
+
+```javascript
+class EngineeringBackground {
   workExperience() {
     return [
       { "Dec 2025–present": "Senior Software Engineer @ Robusta Studio" },
@@ -60,6 +52,75 @@ class Mohamed_Fadl {
     ]
   }
 
+  education() {
+    return [
+      { "2018–2022": "B.Sc. in Computer Engineering @ Mansoura University" },
+      { "2022": "Full Stack JavaScript Developer Nanodegree @ Udacity / Egypt FWD" },
+      { "2020": "Web Development Professional Nanodegree @ Udacity / Egypt FWD" }
+    ]
+  }
+
+  certifications() {
+    return [
+      "Certified Senior Vue.js Developer — Certificates.dev, Dec 2024",
+      "Certified Mid-Level Vue.js Developer — Certificates.dev, Oct 2024",
+      "Mastering Nuxt: Full Stack Unleashed (Nuxt 4) — Vue School, Apr 2025",
+      "Mastering Nuxt 3 — Vue School, Jul 2024",
+      "The Vue.js 3 Masterclass",
+      "Mastering Pinia"
+    ]
+  }
+
+  skills() {
+    return [
+      // Core
+      "HTML5", "CSS3", "Sass", "JavaScript (ES6+)", "TypeScript",
+
+      // Frameworks
+      "Vue.js", "Nuxt", "React", "Next.js",
+
+      // UI & Styling
+      "Tailwind CSS", "Bootstrap", "shadcn", "Nuxt UI", "PrimeVue",
+
+      // State & Data
+      "Pinia", "Vuex", "Zustand", "TanStack Query", "GraphQL",
+
+      // Tools & Testing
+      "Vite", "Webpack", "Git/GitHub", "Jest", "Vitest", "Playwright", "Cypress",
+
+      // Backend & APIs
+      "Node.js", "Express", "REST APIs", "PostgreSQL",
+
+      // Engineering
+      "Web Performance", "SSR", "Caching", "Frontend Architecture",
+      "Accessibility", "Cross-Browser Compatibility"
+    ]
+  }
+
+  currentlyLearning() {
+    return [
+      "Deepening backend and database skills for broader full-stack ownership",
+      "AI integration and retrieval-augmented generation (RAG)"
+    ]
+  }
+
+  volunteering() {
+    return [
+      { "Chairman": "IEEE Mansoura Computer Society Chapter (2022)" },
+      { "Front-End Mentor": "CIS Team MU (2021–2022)" },
+      { "PM / Frontend Lead / Webmaster": "CIS Team MU website" }
+    ]
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Selected projects</strong> — seven projects, context, and source code</summary>
+
+```javascript
+class SelectedProjects {
   projects() {
     return [
       {
@@ -175,65 +236,7 @@ class Mohamed_Fadl {
       }
     ]
   }
-
-  education() {
-    return [
-      { "2018–2022": "B.Sc. in Computer Engineering @ Mansoura University" },
-      { "2022": "Full Stack JavaScript Developer Nanodegree @ Udacity / Egypt FWD" },
-      { "2020": "Web Development Professional Nanodegree @ Udacity / Egypt FWD" }
-    ]
-  }
-
-  certifications() {
-    return [
-      "Certified Senior Vue.js Developer — Certificates.dev, Dec 2024",
-      "Certified Mid-Level Vue.js Developer — Certificates.dev, Oct 2024",
-      "Mastering Nuxt: Full Stack Unleashed (Nuxt 4) — Vue School, Apr 2025",
-      "Mastering Nuxt 3 — Vue School, Jul 2024",
-      "The Vue.js 3 Masterclass",
-      "Mastering Pinia"
-    ]
-  }
-
-  skills() {
-    return [
-      // Core
-      "HTML5", "CSS3", "Sass", "JavaScript (ES6+)", "TypeScript",
-
-      // Frameworks
-      "Vue.js", "Nuxt", "React", "Next.js",
-
-      // UI & Styling
-      "Tailwind CSS", "Bootstrap", "shadcn", "Nuxt UI", "PrimeVue",
-
-      // State & Data
-      "Pinia", "Vuex", "Zustand", "TanStack Query", "GraphQL",
-
-      // Tools & Testing
-      "Vite", "Webpack", "Git/GitHub", "Jest", "Vitest", "Playwright", "Cypress",
-
-      // Backend & APIs
-      "Node.js", "Express", "REST APIs", "PostgreSQL",
-
-      // Engineering
-      "Web Performance", "SSR", "Caching", "Frontend Architecture",
-      "Accessibility", "Cross-Browser Compatibility"
-    ]
-  }
-
-  currentlyLearning() {
-    return [
-      "Deepening backend and database skills for broader full-stack ownership",
-      "AI integration and retrieval-augmented generation (RAG)"
-    ]
-  }
-
-  volunteering() {
-    return [
-      { "Chairman": "IEEE Mansoura Computer Society Chapter (2022)" },
-      { "Front-End Mentor": "CIS Team MU (2021–2022)" },
-      { "PM / Frontend Lead / Webmaster": "CIS Team MU website" }
-    ]
-  }
 }
 ```
+
+</details>
