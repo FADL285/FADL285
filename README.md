@@ -63,25 +63,115 @@ class Mohamed_Fadl {
   projects() {
     return [
       {
-        name: "ColorShift",
-        stack: ["Nuxt 4", "Vue 3", "TypeScript"],
-        features: [
+        "name": "ColorShift",
+        "stack": [
+          "Nuxt 4",
+          "Vue 3",
+          "TypeScript"
+        ],
+        "features": [
           "Instant CSS color conversion and batch file processing",
           "Cancellable Web Worker, previews, and browser-side processing",
           "Unit and browser regression tests"
         ],
-        source: "https://github.com/FADL285/ColorShift"
+        "source": "https://github.com/FADL285/ColorShift"
       },
       {
-        name: "Typeform Judging Scoreboard",
-        stack: ["Vue 3", "Pinia", "Tailwind CSS", "Node.js", "Express"],
-        usedAt: ["IEEE VICTORIS", "University NASA Space Apps competitions"],
-        features: [
+        "name": "Storefront Backend API",
+        "context": "Udacity / Egypt FWD — Full Stack JavaScript Nanodegree",
+        "stack": [
+          "Node.js",
+          "Express",
+          "TypeScript",
+          "PostgreSQL"
+        ],
+        "features": [
+          "Relational schema and migrations for users, products, and orders",
+          "JWT authentication, password hashing, and automated tests"
+        ],
+        "source": "https://github.com/FADL285/Storefront-Backend-Nanodegree-Project"
+      },
+      {
+        "name": "AWS Deployment & CI/CD — Udagram",
+        "context": "Udacity / Egypt FWD — deployment of an existing application",
+        "stack": [
+          "AWS S3",
+          "Elastic Beanstalk",
+          "RDS PostgreSQL",
+          "CircleCI"
+        ],
+        "features": [
+          "Configured infrastructure and deployment scripts",
+          "Automated application builds and deployment"
+        ],
+        "source": "https://github.com/FADL285/Hosting-a-Full-Stack-Application"
+      },
+      {
+        "name": "Typeform Judging Scoreboard",
+        "stack": [
+          "Vue 3",
+          "Pinia",
+          "Tailwind CSS",
+          "Node.js",
+          "Express"
+        ],
+        "usedAt": [
+          "IEEE VICTORIS",
+          "University NASA Space Apps competitions"
+        ],
+        "features": [
           "Typeform integration, score aggregation, and team rankings",
           "Later improvements: authenticated APIs and regression tests"
         ],
-        frontend: "https://github.com/FADL285/Typeform-Judging-Scoreboard-Frontend",
-        backend: "https://github.com/FADL285/Typeform-Judging-Scoreboard-Backend"
+        "frontend": "https://github.com/FADL285/Typeform-Judging-Scoreboard-Frontend",
+        "backend": "https://github.com/FADL285/Typeform-Judging-Scoreboard-Backend"
+      },
+      {
+        "name": "CIS Team MU — Website",
+        "context": "College community project",
+        "role": "Project Manager / Frontend Lead / Webmaster",
+        "stack": [
+          "HTML",
+          "Sass",
+          "JavaScript",
+          "jQuery",
+          "Bootstrap"
+        ],
+        "features": [
+          "Coordinated project tasks and developed responsive interfaces",
+          "Maintained the website and delivered ongoing improvements"
+        ]
+      },
+      {
+        "name": "Image Processing API",
+        "context": "Udacity / Egypt FWD — Full Stack JavaScript Nanodegree",
+        "stack": [
+          "Node.js",
+          "Express",
+          "TypeScript",
+          "Sharp"
+        ],
+        "features": [
+          "On-demand image resizing and filesystem caching",
+          "Input validation, missing-image handling, and automated tests"
+        ],
+        "source": "https://github.com/FADL285/Image-Processing-API"
+      },
+      {
+        "name": "CIS Team MU — Blog",
+        "context": "College community project",
+        "role": "Project Manager / Frontend Developer",
+        "stack": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "AJAX",
+          "Laravel Blade"
+        ],
+        "features": [
+          "Coordinated tasks and developed frontend interfaces",
+          "Collaborated with the backend developer on integration"
+        ]
       }
     ]
   }
