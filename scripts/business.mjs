@@ -35,7 +35,7 @@ Find me on the web:
 
 const infoData = {
   username: '@FADL285',
-  work: 'Software Engineer at CyberDefenders 🛡️',
+  work: 'Senior Software Engineer at Robusta Studio',
   linkedin: 'FADL285',
   github: 'FADL285',
   twitter: 'FADL285',
