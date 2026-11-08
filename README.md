@@ -184,8 +184,7 @@ class SelectedProjects {
           "Typeform integration, score aggregation, and team rankings",
           "Later improvements: authenticated APIs and regression tests"
         ],
-        "frontend": "https://github.com/FADL285/Typeform-Judging-Scoreboard-Frontend",
-        "backend": "https://github.com/FADL285/Typeform-Judging-Scoreboard-Backend"
+        "source": "https://github.com/FADL285/Typeform-Judging-Scoreboard"
       },
       {
         "name": "CIS Team MU — Website",
